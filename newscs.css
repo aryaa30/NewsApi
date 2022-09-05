@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #08344e;
+  color: #cae3f9;
+}
+header {
+  display: inline;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+}
+.newsacc1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  flex-direction :  column;
+}
+.card {
+  width: 350px;
+  height: 550px;
+}
+.card {
+  min-width: 250;
+  min-height: 400;
+}
+.card-body {
+  background-color: #000000;
+}
+.navbar-custom {
+  background-color: rgba(101, 101, 97, 0.745);
+}
+h5 {
+  color: blanchedalmond;
+}
+.dropdown-menu {
+  background-color: rgb(64, 49, 83);
+}
